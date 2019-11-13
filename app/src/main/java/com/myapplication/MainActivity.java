@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -38,5 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         showFactButton.setOnClickListener(listener);
+        //Toast.makeText(this, "Yay! our activity was created!", Toast.LENGTH_SHORT).show();
+       
     }
 }
